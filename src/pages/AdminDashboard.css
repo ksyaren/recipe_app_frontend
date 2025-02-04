@@ -1,0 +1,76 @@
+/* Ana container */
+.admin-dashboard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #390099; /* Açık gri arka plan */
+    font-family: 'Arial', sans-serif;
+}
+
+/* Admin kartı */
+.admin-card {
+    background-color: #f8f8f8; /* Beyaz kart arka planı */
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    color: #555555; /* Orta gri metin rengi */
+}
+
+/* Başlık */
+.admin-card h1 {
+    font-size: 2rem;
+    color: #333333; /* Koyu gri başlık rengi */
+    margin-bottom: 1rem;
+}
+
+/* Hoş geldiniz mesajı */
+.admin-card p {
+    font-size: 1.2rem;
+    color: #555555; /* Orta gri metin rengi */
+    margin-bottom: 2rem;
+}
+
+/* İşlem butonları */
+.admin-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.admin-actions button {
+    padding: 1rem;
+    font-size: 1rem;
+    background-color: #ff9e00; /* Mavi buton rengi */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.admin-actions button:hover {
+    background-color: #ffb600; /* Daha koyu mavi hover rengi */
+    transform: scale(1.05);
+}
+
+/* Çıkış butonu */
+.logout-button {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    background-color: #dc3545; /* Gri çıkış butonu rengi */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.logout-button:hover {
+    background-color: #c82333; /* Daha koyu gri hover rengi */
+    transform: scale(1.05);
+}

@@ -1,0 +1,84 @@
+/* Ana container */
+.add-user-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #390099; /* Gradient arka plan */
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Kullanıcı ekleme kartı */
+  .add-user-card {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  /* Başlık */
+  .add-user-card h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  /* Input grupları */
+  .input-group {
+    margin-bottom: 1rem;
+    text-align: left;
+  }
+  
+  .input-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .input-group input:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  /* Gönder butonu */
+  .submit-button-user {
+        width: 50%;
+    padding: 1rem;
+    font-size: 1rem;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .submit-button-user:hover {
+    background-color: #c82333;
+    
+  }
+  
+  /* Hata ve başarı mesajları */
+  .error-message {
+    color: #dc3545;
+    margin-bottom: 1rem;
+  }
+  
+  .success-message {
+    color: #28a745;
+    margin-bottom: 1rem;
+  }

@@ -1,0 +1,60 @@
+.recipe-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  width: 300px;
+  margin: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  position: relative; /* Kalp ikonunu konumlandırmak için */
+}
+
+.recipe-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.recipe-content {
+  padding: 15px;
+}
+
+.recipe-title-link {
+  text-decoration: none; /* Link'in alt çizgisini kaldır */
+  color: inherit; /* Link rengini miras al */
+}
+
+.recipe-content h3 {
+  margin: 0 0 10px;
+  font-size: 1.5rem;
+  cursor: pointer; /* Tarif ismine tıklandığında el işareti göster */
+}
+
+.recipe-content h3:hover {
+  color: #ff9e00; /* Tarif ismine hover durumunda renk değişimi */
+}
+
+.recipe-content p {
+  margin: 0;
+  color: #555;
+}
+
+.favorite-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  position: absolute; /* Kartın içinde konumlandır */
+  top: 10px; /* Yukarıdan boşluk */
+  right: 10px; /* Sağdan boşluk */
+  z-index: 1; /* Link'in üzerinde görünmesini sağlar */
+}
+
+.heart-icon {
+  font-size: 1.5rem;
+  color: #ff4757; /* Kırmızı renk */
+  transition: color 0.3s ease; /* Renk değişimi için animasyon */
+}
+
+.heart-icon:hover {
+  color: #ff6b81; /* Hover durumunda renk değişimi */
+}

@@ -1,0 +1,74 @@
+/* Sayfa arka plan rengi */
+body {
+    background-color: #f8f8f6; /* Arka plan rengi */
+    margin: 0;
+    font-family: Arial, sans-serif; /* Varsayılan yazı tipi */
+  }
+  
+  /* Ana container stil */
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    
+  }
+  
+  /* Metin içeriği stil */
+  .content {
+    max-width: 55%;
+    text-align: left;
+  }
+  
+  .content h1 {
+    font-size: 64px;
+    color: #333;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    font-family: "Caveat", cursive;
+  }
+  
+  .content p {
+    font-size: 17px;
+    color: #666;
+    line-height: 1.4;
+    margin-bottom: 10px;
+    margin-left: 100px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  
+  
+  
+  /* Resim container stil */
+  .image-container {
+    max-width: 50%;
+    text-align: right;
+  }
+  
+  .chef-image {
+    max-width: 100%;
+    height: auto;
+    
+    
+  }
+
+  .giris-button {
+    background-color: #ff9e00;
+    border: none;
+    color: white;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin-left: 100px;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+  
+  .giris-button:hover{
+    background-color: #f0b85d;
+  }
